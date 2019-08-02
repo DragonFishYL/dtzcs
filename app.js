@@ -34,6 +34,7 @@ App({
     })
   },
   globalData: {
+	publicurl:'https://fairso.com',
     userInfo: null
   }
 })

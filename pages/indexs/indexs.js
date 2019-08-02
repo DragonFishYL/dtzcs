@@ -5,15 +5,12 @@ const app = getApp()
 Page({
 	data: {
         bannerImages: [ {
-            img: "/public/image/dtzc1564650832.jpg"
+            img: app.globalData.publicurl+'/Public/dtzc/image/dtzc1564650870.jpg'
         }, {
-            img: "/public/image/dtzc1564650870.jpg"
-        }, {
-            img: "/public/image/dtzc1564650748.jpg"
+            img: app.globalData.publicurl+'/Public/dtzc/image/dtzc1564650748.jpg'
         } , {
-            img: "/public/image/dtzc1564650774.jpg"
-        }, {
-            img: "/public/image/dtzc1564650805.jpg"
+            img: app.globalData.publicurl+'/Public/dtzc/image/dtzc1564650774.jpg'
         }],
+		service:app.globalData.publicurl+'/Public/dtzc/image',
 	},
 })

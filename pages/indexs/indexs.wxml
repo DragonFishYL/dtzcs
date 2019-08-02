@@ -1,8 +1,147 @@
-
-		<swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
-		  <block wx:for="{{bannerImages}}" wx:for-index="index">
+<view class="index-body">
+	<view>
+		<swiper class='u-wrp-bnr' indicator-active-color="#07c160" previous-margin="0rpx" next-margin="160rpx" indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+		  <block wx:for="{{bannerImages}}" wx:for-index="index" wx:key="unique">
 			<swiper-item>
 			  <image src='{{item.img}}' class='u-img-slide' mode='aspectFill'></image>
 			</swiper-item>
 		  </block>
 		</swiper>
+	</view>
+	<!-- 阿里图标字体<view><text>6666666666666</text><text class="iconfont iconyyglxt" style="font-size:68rpx;color:#386bf3;">2222222</text></view> -->
+	<view class="index-one">
+		<view class="index-b">
+			<view style="text-align:center;"><image src="{{service}}/dtzc_tijiaoxuqiu.png" /></view>
+			<view class="index-c">提交需求</view>
+		</view>
+		<view class="index-b">
+			<view style="text-align:center;"><image src="{{service}}/dtzc_jiejuefangan.png" /></view>
+			<view class="index-c">解决方案</view>
+		</view>
+		<view class="index-b">
+			<view style="text-align:center;"><image src="{{service}}/dtzc_youxiuanli.png" /></view>
+			<view class="index-c">优秀案例</view>
+		</view>
+		<view style="clear:both;"></view>
+	</view>
+	<view class="index-title">我们能做什么</view>
+	<view class="index-two">
+		<view>
+			<view class="index-a">
+				<view style="text-align:center;"><image src="{{service}}/dtzc_weixinxiaochengxuma.png" /></view>
+				<view class="index-c">微信小程序</view>
+			</view>
+			<view class="index-a">
+				<view style="text-align:center;"><image src="{{service}}/dtzc_zhifubaoxiaochengxu.png" /></view>
+				<view class="index-c">支付宝小程序</view>
+			</view>
+			<view class="index-a">
+				<view style="text-align:center;"><image src="{{service}}/dtzc_baiduxiaochengxu.png" /></view>
+				<view class="index-c">百度小程序</view>
+			</view>
+			<view class="index-a">
+				<view style="text-align:center;"><image src="{{service}}/dtzc_brand_icon.png" /></view>
+				<view class="index-c">系统开发</view>
+			</view>
+			<view class="index-a">
+				<view style="text-align:center;"><image src="{{service}}/dtzc_marketing_icon.png" /></view>
+				<view class="index-c">网站开发</view>
+			</view>
+			<view class="index-a">
+				<view style="text-align:center;"><image src="{{service}}/dtzc_weapp_icon.png" /></view>
+				<view class="index-c">定制开发</view>
+			</view>
+			<view style="clear:both;"></view>
+		</view>
+	</view>
+	<view class="index-title">服务流程</view>
+	<view class="index-two">
+		<view>
+			<view class="index-d">
+				<view class="index-d-l">
+					<view class="index-d-l1">第一步</view>
+					<view class="index-d-l2">免费咨询</view>
+					<view class="index-d-l3"></view>
+				</view>
+				<view class="index-d-r">我们免费为您提供咨询服务,即帮助您通过自身业务梳理开发需求同时也了解专业的开发知识,以免入坑!</view>
+				<view style="clear:both;"></view>
+			</view>
+			<view class="index-d">
+				<view class="index-d-l">
+					<view class="index-d-l1">第二步</view>
+					<view class="index-d-l2">确定需求</view>
+					<view class="index-d-l3"></view>
+				</view>
+				<view class="index-d-r">初次合作后,您对我司提出的方案表示满意,我们将进行更深度的洽谈,帮助您规划更加具体的开发需求并制定开发方案及预算。</view>
+				<view style="clear:both;"></view>
+			</view>
+			<view class="index-d">
+				<view class="index-d-l">
+					<view class="index-d-l1">第三步</view>
+					<view class="index-d-l2">签订合同</view>
+					<view class="index-d-l3"></view>
+				</view>
+				<view class="index-d-r">双方对开发需求、方案、报价达成一致,同时签订服务合同。</view>
+				<view style="clear:both;"></view>
+			</view>
+			<view class="index-d">
+				<view class="index-d-l">
+					<view class="index-d-l1">第四步</view>
+					<view class="index-d-l2">选择方案</view>
+					<view class="index-d-l3"></view>
+				</view>
+				<view class="index-d-r">我们将在合同指定时间内根据已确定需求完成UI设计方案、UE设计方案、系统架构方案等待您的确认</view>
+				<view style="clear:both;"></view>
+			</view>
+			<view class="index-d">
+				<view class="index-d-l">
+					<view class="index-d-l1">第五步</view>
+					<view class="index-d-l2">设计开发</view>
+					<view class="index-d-l3"></view>
+				</view>
+				<view class="index-d-r">我们将根据已确定UI设计、UE设计方案、系统架构方案实施开发。</view>
+				<view style="clear:both;"></view>
+			</view>
+			<view class="index-d">
+				<view class="index-d-l">
+					<view class="index-d-l1">第六步</view>
+					<view class="index-d-l2">服务交付</view>
+					<view class="index-d-l3"></view>
+				</view>
+				<view class="index-d-r">在合同制定时间内,以上第五步、第六步将会根据项目分期循环执行，直至最终项目测试通过并完成服务交付</view>
+				<view style="clear:both;"></view>
+			</view>
+			<view class="index-d">
+				<view class="index-d-l">
+					<view class="index-d-l1">第七步</view>
+					<view class="index-d-l2">免费维护</view>
+					<view class="index-d-l3"></view>
+				</view>
+				<view class="index-d-r">我们做的不是一锤子买卖,是对您永久的服务。服务交付后我们将为您提供永久的免费维护!</view>
+				<view style="clear:both;"></view>
+			</view>
+			<view class="index-d">
+				<view class="index-e">免费咨询</view>
+			</view>
+		</view>
+	</view>
+	<view class="index-title">团队的使命</view>
+	<view class="index-two">
+		<view>
+			<view class="index-g">心系大图,至诚为先</view>
+			<view class="index-f">我们没有使命,只有价值观</view>
+		</view>
+	</view>
+	<view class="index-three">
+		<view>
+			<view class="index-three-l">
+				<view class="index-three-l1">来 <text>大图至诚科技</text></view>
+				<view class="index-three-l2">解决您的业务联网方案和技术需求</view>
+			</view>
+			<view class="index-three-r">
+				<view class="index-e">免费咨询</view>
+			</view>
+			<view style="clear:both;"></view>
+		</view>
+	</view>
+</view>
