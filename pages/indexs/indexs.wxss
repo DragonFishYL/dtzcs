@@ -2,7 +2,7 @@
 .u-img-slide {width: 100%;height: inherit;}
 page{background:#fff;box-sizing:border-box;}
 .index-title{height:50rpx;line-height:50rpx;text-indent:30rpx;font-size:44rpx;color:#333;margin-top:20rpx;margin-top:50rpx;}
-.index-one{padding:40rpx;margin-left:-16px;margin-top:20rpx;}
+.index-one{padding:25rpx;margin-left:-16px;margin-top:20rpx;}
 .index-b{width:28%;height:250rpx;box-shadow:0 8rpx 32rpx 0 rgba(183,193,205,0.20);float:left;margin-left:4.2%;padding:20rpx 5rpx 0 5rpx;}
 .index-b>view>image{width:80px;height:69px;}
 .index-c{height:40rpx;line-height:40rpx;font-size:28rpx;color:#333;text-align:center;margin-top:20rpx;}

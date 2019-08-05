@@ -13,4 +13,9 @@ Page({
         }],
 		service:app.globalData.publicurl+'/Public/dtzc/image',
 	},
+	bind_tal:function(){
+		wx.makePhoneCall({
+			phoneNumber: '15311462220' //仅为示例，并非真实的电话号码
+		})
+	}
 })

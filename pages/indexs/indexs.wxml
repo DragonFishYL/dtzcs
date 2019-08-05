@@ -121,7 +121,7 @@
 				<view style="clear:both;"></view>
 			</view>
 			<view class="index-d">
-				<view class="index-e">免费咨询</view>
+				<view class="index-e" bindtap="bind_tal">免费咨询</view>
 			</view>
 		</view>
 	</view>
@@ -139,7 +139,7 @@
 				<view class="index-three-l2">解决您的业务联网方案和技术需求</view>
 			</view>
 			<view class="index-three-r">
-				<view class="index-e">免费咨询</view>
+				<view class="index-e" bindtap="bind_tal">免费咨询</view>
 			</view>
 			<view style="clear:both;"></view>
 		</view>
